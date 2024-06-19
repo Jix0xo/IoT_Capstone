@@ -21,6 +21,8 @@
 - 디바이스 : 
  ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
-  
+- 시스템 구조 :<br/>
+<br/>
+
 ![구조도](https://github.com/Jix0xo/IoT_Capstone/assets/136789448/174e5ae8-095d-40a7-99eb-b79fd8b6d3cc)
 
