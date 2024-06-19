@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
                     Log.i(TAG, "Device: " + selectedPart);
 
                     // 고정된 값
-                    String fixedPart = "https://2bczap40af.execute-api.ap-northeast-2.amazonaws.com/prod/devices/";
+                    String fixedPart = "https://**********.execute-api.ap-northeast-2.amazonaws.com/prod/devices/";
                     // 새로운 링크 구성
                     String newLink = fixedPart + selectedPart;
 
