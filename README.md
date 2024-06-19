@@ -1,6 +1,6 @@
 # 🛌 Resty
 스마트베개 Resty는 코골이와 뒤척임을 실시간으로 감지해 완화하고 올바른 수면 자세를 유도한다. 수면 데이터를 분석해 수면 패턴 개선을 돕는다.
-### 팀 구성
+## 팀 구성
 
 |역할|이름|담당 업무|
 |---|:----:|:---------:|
@@ -8,7 +8,7 @@
 |팀원|김형준|디바이스 제작|
 |팀원|유란|코골이 딥러닝 모델 + 라즈베리파이|
 
-### 기술 및 구조
+## 기술 및 구조
 - 개발 언어 : 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -25,4 +25,7 @@
 <br/>
 
 ![구조도](https://github.com/Jix0xo/IoT_Capstone/assets/136789448/174e5ae8-095d-40a7-99eb-b79fd8b6d3cc)
+
+## 기능 시연
+![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
 
