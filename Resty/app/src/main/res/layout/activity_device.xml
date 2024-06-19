@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorSplash"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="시간 설정"
+            android:layout_marginTop="30dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="256dp">
+
+        <ImageView
+            android:id="@+id/clock"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/clock" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/starttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBtn"
+            android:text="시작 시간 :" />
+
+        <TextView
+            android:id="@+id/textView_time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/starttime"
+            android:layout_toRightOf="@+id/starttime"
+            android:textColor="@color/colorBtn"
+            android:text="hh:mm" />
+
+        <TextView
+            android:id="@+id/endtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:textColor="@color/colorBtn"
+            android:text="종료 시간 :" />
+
+        <TextView
+            android:id="@+id/textView_time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/endtime"
+            android:layout_toRightOf="@+id/endtime"
+            android:textColor="@color/colorBtn"
+            android:text="hh:mm" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/colorSplash"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="수면 자세 설정"
+        android:layout_marginTop="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/person1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sleep" />
+
+            <ImageView
+                android:id="@+id/person2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_below="@id/person1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sleep_side" />
+
+            <ImageView
+                android:id="@+id/person3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_below="@id/person2"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sleep_snoring" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_toEndOf="@id/relative_layout"
+            android:layout_toRightOf="@id/relative_layout">
+
+            <RadioButton
+                android:id="@+id/posture_1"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:textColor="@color/colorSplash_brighter"
+                android:text="정자세" />
+
+            <RadioButton
+                android:id="@+id/posture_2"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:textColor="@color/colorSplash_brighter"
+                android:text="측면" />
+
+            <RadioButton
+                android:id="@+id/posture_3"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorSplash_brighter"
+                android:layout_height="90dp"
+                android:text="코골이 완화" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_new"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:text="설정 완료" />
+
+</LinearLayout>

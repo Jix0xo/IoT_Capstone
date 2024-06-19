@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/thingShadowBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_new"
+            android:textColor="#FFFFFF"
+            android:text="베개 설정 변경"
+            />
+
+        <Button
+            android:id="@+id/listLogsBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_new"
+            android:textColor="#FFFFFF"
+            android:text="베개 기록 조회"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/saveLink"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:hint="기기의 품번을 입력하세요"
+        android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/addLinkBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_new_2"
+            android:textColor="#FFFFFF"
+            android:text="기기 저장"
+            />
+
+        <Button
+            android:id="@+id/makeLinkBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_new_2"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="2.5dp"
+            android:text="기기 선택" />
+
+        <Button
+            android:id="@+id/deleteLinkBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_new_2"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="2.5dp"
+            android:text="기기 삭제" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/linkSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/currentLinkTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBtn"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
