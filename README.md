@@ -20,8 +20,7 @@
 |팀원|유란|코골이 딥러닝 모델 + 라즈베리파이|
 
 ## 기능 설명
-주요 기능 3가지
-<br/>
+### 주요 기능 3가지
 
 - 코골이 완화 기능
   - 라즈베리파이에 있는 딥러닝 모델을 통해 코골이 인식 후 베개 내부 에어펌프가 자세 교정
@@ -52,11 +51,13 @@
 ![구조도](https://github.com/Jix0xo/IoT_Capstone/assets/136789448/174e5ae8-095d-40a7-99eb-b79fd8b6d3cc)
 
 ## 기능 시연
-앱 사용 화면<br/><br/>
+- ### 앱 사용 화면<br/><br/>
 ![화면 캡처 2024-06-20 135315](https://github.com/Jix0xo/IoT_Capstone/assets/136789448/4a646729-7b08-497c-ab98-89b79ab10c7c)<br/>
+![화면 캡처 2024-06-20 135334](https://github.com/Jix0xo/IoT_Capstone/assets/136789448/e301b9ad-e4cb-4744-a3e5-4744f120b36c)
+<br/><br/>
 ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)<br/><br/>
-[정자세 교정 시연 영상](https://youtu.be/GOmz6sikODg)<br/><br/>
-[옆으로 누운 자세 교정 시연 영상](https://youtu.be/rLDzfJ1hkUs)<br/><br/>
-[코골이 완화 시연 영상](https://youtu.be/LvnRewWps84)<br/><br/>
-[앱 시연 영상](https://youtu.be/gmcnFOtOViI)
+- [정자세 교정 시연 영상](https://youtu.be/GOmz6sikODg)<br/><br/>
+- [옆으로 누운 자세 교정 시연 영상](https://youtu.be/rLDzfJ1hkUs)<br/><br/>
+- [코골이 완화 시연 영상](https://youtu.be/LvnRewWps84)<br/><br/>
+- [앱 시연 영상](https://youtu.be/gmcnFOtOViI)
 
